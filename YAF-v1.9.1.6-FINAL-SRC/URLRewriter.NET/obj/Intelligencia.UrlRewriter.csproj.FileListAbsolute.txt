@@ -1,0 +1,7 @@
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\bin\Intelligencia.UrlRewriter.dll
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\bin\Intelligencia.UrlRewriter.pdb
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.Messages.resources
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.dll
+C:\Documents and Settings\Administrator\Desktop\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.pdb

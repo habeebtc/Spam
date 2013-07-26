@@ -1,0 +1,7 @@
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\bin\Intelligencia.UrlRewriter.dll
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\bin\Intelligencia.UrlRewriter.pdb
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.Messages.resources
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.csproj.GenerateResource.Cache
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.dll
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\URLRewriter.NET\obj\Debug\Intelligencia.UrlRewriter.pdb

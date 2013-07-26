@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yetanotherforum.net", "yetanotherforum.net.csproj", "{555357E5-A150-4C4D-BC81-97F4AE19086A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligencia.UrlRewriter", "URLRewriter.NET\Intelligencia.UrlRewriter.csproj", "{F8516C67-92BE-43FF-A8A9-B71A3EA4BE0D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordResolver", "..\RecordResolver\RecordResolver.csproj", "{6E9842DB-8309-4D7A-BCE4-0EBE897654ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotTest", "..\BotTest\BotTest.csproj", "{184FA6B0-6993-4A8A-8AF0-3E377285F726}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookBot", "..\WindowsApplication2\FacebookBot.csproj", "{FD30657C-73F3-4686-B57D-34E405BD607A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientBotService", "..\ClientBotService\ClientBotService.csproj", "{725F9970-7842-436C-9173-834A0FEB2FC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerBotService", "..\ServerBotService\ServerBotService.csproj", "{1A2B1C28-F749-4618-B5FA-D4CEEEBDFAA0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{555357E5-A150-4C4D-BC81-97F4AE19086A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555357E5-A150-4C4D-BC81-97F4AE19086A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555357E5-A150-4C4D-BC81-97F4AE19086A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555357E5-A150-4C4D-BC81-97F4AE19086A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8516C67-92BE-43FF-A8A9-B71A3EA4BE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8516C67-92BE-43FF-A8A9-B71A3EA4BE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8516C67-92BE-43FF-A8A9-B71A3EA4BE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8516C67-92BE-43FF-A8A9-B71A3EA4BE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9842DB-8309-4D7A-BCE4-0EBE897654ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9842DB-8309-4D7A-BCE4-0EBE897654ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9842DB-8309-4D7A-BCE4-0EBE897654ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9842DB-8309-4D7A-BCE4-0EBE897654ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184FA6B0-6993-4A8A-8AF0-3E377285F726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184FA6B0-6993-4A8A-8AF0-3E377285F726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184FA6B0-6993-4A8A-8AF0-3E377285F726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184FA6B0-6993-4A8A-8AF0-3E377285F726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD30657C-73F3-4686-B57D-34E405BD607A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD30657C-73F3-4686-B57D-34E405BD607A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD30657C-73F3-4686-B57D-34E405BD607A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD30657C-73F3-4686-B57D-34E405BD607A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725F9970-7842-436C-9173-834A0FEB2FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F9970-7842-436C-9173-834A0FEB2FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F9970-7842-436C-9173-834A0FEB2FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F9970-7842-436C-9173-834A0FEB2FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2B1C28-F749-4618-B5FA-D4CEEEBDFAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2B1C28-F749-4618-B5FA-D4CEEEBDFAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2B1C28-F749-4618-B5FA-D4CEEEBDFAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2B1C28-F749-4618-B5FA-D4CEEEBDFAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
