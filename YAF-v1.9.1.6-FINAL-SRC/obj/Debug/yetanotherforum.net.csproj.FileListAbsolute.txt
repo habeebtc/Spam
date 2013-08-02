@@ -86,3 +86,4 @@ C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\obj\D
 C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\obj\Debug\yaf.pdb
 C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\bin\CookComputing.XmlRpcV2.dll
 C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\bin\IStateName.dll
+C:\ProgramData\Tools\Code\C#\YAF-v1.9.1.6-FINAL-SRC\YAF-v1.9.1.6-FINAL-SRC\bin\Intelligencia.UrlRewriter.pdb

@@ -379,18 +379,35 @@ namespace yaf.controls
                 {
                     IsHTML = false
                 }));
+            messageOutput.Append("<br><br>");//for proper post spacing, regardless of what ratings are present.
             DataTable messageRatings = DB.GetMessageRatings(this.DataRow["MessageID"].ToString());
             if (messageRatings.Rows.Count > 0)
             {
-                messageOutput.Append("<br><br><b>This message has been rated: </b><br><br>");
+                messageOutput.Append("<b>This message has been rated: </b><br><br>");
                 messageOutput.Append("<table border=1>");
                 foreach (DataRow dataRow in (InternalDataCollectionBase)messageRatings.Rows)
                 {
                     messageOutput.Append("<tr><td>" + DB.GetUserName(dataRow["UserID"].ToString()) + "</td>");
                     messageOutput.Append("<td>" + dataRow["Rating"].ToString() + "</td></tr>");
                 }
+                messageOutput.Append("</td></table>&nbsp&nbsp&nbsp");
+            }
+
+            //Now for first post +100 rating
+            DataTable messageFP = DB.GetFPRatings(this.DataRow["MessageID"].ToString());
+            if (messageFP.Rows.Count > 0)
+            {
+                
+                messageOutput.Append("<table border=1>");
+                foreach (DataRow dataRow in (InternalDataCollectionBase)messageFP.Rows)
+                {
+                    messageOutput.Append("<tr><td>First Post</td>");
+                    messageOutput.Append("<td>" + dataRow["Rating"].ToString() + "</td></tr>");
+                }
                 messageOutput.Append("</td></table>");
             }
+
+
             return ((object)messageOutput).ToString();
         }
 

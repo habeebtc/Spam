@@ -151,6 +151,17 @@ GO
 
 IF NOT EXISTS (SELECT 1
                FROM   sysobjects
+               WHERE  id = Object_id(N'yaf_FirstPost')
+               AND Objectproperty(id,N'IsUserTable') = 1)
+CREATE TABLE [dbo].[yaf_FirstPost](
+	[messageid] [int] NULL,
+	[rating] [int] NULL,
+	[ratingID] [int] IDENTITY(1,1) NOT NULL
+) 
+GO
+
+IF NOT EXISTS (SELECT 1
+               FROM   sysobjects
                WHERE  id = Object_id(N'yaf_PMessage')
                AND Objectproperty(id,N'IsUserTable') = 1)
 CREATE TABLE dbo.yaf_PMessage (
@@ -205,6 +216,18 @@ CREATE TABLE dbo.yaf_Topic (
   LastUserName  NVARCHAR(50) NULL,
   NumPosts      INT NOT NULL,
   Flags         INT NOT NULL CONSTRAINT DF_yaf_Topic_Flags DEFAULT (0))
+GO
+
+IF NOT EXISTS (SELECT 1
+               FROM   sysobjects
+               WHERE  id = Object_id(N'yaf_Rating')
+               AND Objectproperty(id,N'IsUserTable') = 1)
+CREATE TABLE [dbo].[yaf_Rating](
+	[userid] [int] NOT NULL,
+	[messageid] [int] NULL,
+	[rating] [int] NULL,
+	[ratingID] [int] IDENTITY(1,1) NOT NULL
+) 
 GO
 
 IF NOT EXISTS (SELECT 1

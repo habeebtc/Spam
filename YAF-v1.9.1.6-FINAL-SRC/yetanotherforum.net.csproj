@@ -1652,12 +1652,15 @@
     <Content Include="yafnet.config" />
     <EmbeddedResource Include="controls\DisplayPost.ascx.resx">
       <DependentUpon>DisplayPost.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="controls\ForumList.ascx.resx">
       <DependentUpon>ForumList.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="controls\smileys.ascx.resx">
       <DependentUpon>smileys.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="error.aspx.resx">
       <DependentUpon>error.aspx.cs</DependentUpon>
@@ -1665,231 +1668,307 @@
     </EmbeddedResource>
     <EmbeddedResource Include="install\default.aspx.resx">
       <DependentUpon>default.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\active.ascx.resx">
       <DependentUpon>active.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\activeusers.ascx.resx">
       <DependentUpon>activeusers.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\accessmasks.ascx.resx">
       <DependentUpon>accessmasks.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\admin.ascx.resx">
       <DependentUpon>admin.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\attachments.ascx.resx">
       <DependentUpon>attachments.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\bannedip.ascx.resx">
       <DependentUpon>bannedip.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\bannedip_edit.ascx.resx">
       <DependentUpon>bannedip_edit.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\boards.ascx.resx">
       <DependentUpon>boards.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\boardsettings.ascx.resx">
       <DependentUpon>boardsettings.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editaccessmask.ascx.resx">
       <DependentUpon>editaccessmask.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editboard.ascx.resx">
       <DependentUpon>editboard.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editcategory.ascx.resx">
       <DependentUpon>editcategory.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editforum.ascx.resx">
       <DependentUpon>editforum.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editgroup.ascx.resx">
       <DependentUpon>editgroup.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editnntpforum.ascx.resx">
       <DependentUpon>editnntpforum.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editnntpserver.ascx.resx">
       <DependentUpon>editnntpserver.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\editrank.ascx.resx">
       <DependentUpon>editrank.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\edituser.ascx.resx">
       <DependentUpon>edituser.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\eventlog.ascx.resx">
       <DependentUpon>eventlog.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\forums.ascx.resx">
       <DependentUpon>forums.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\groups.ascx.resx">
       <DependentUpon>groups.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\hostsettings.ascx.resx">
       <DependentUpon>hostsettings.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\mail.ascx.resx">
       <DependentUpon>mail.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\nntpforums.ascx.resx">
       <DependentUpon>nntpforums.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\nntpretrieve.ascx.resx">
       <DependentUpon>nntpretrieve.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\nntpservers.ascx.resx">
       <DependentUpon>nntpservers.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\pm.ascx.resx">
       <DependentUpon>pm.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\prune.ascx.resx">
       <DependentUpon>prune.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\ranks.ascx.resx">
       <DependentUpon>ranks.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\reguser.ascx.resx">
       <DependentUpon>reguser.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\replacewords.ascx.resx">
       <DependentUpon>replacewords.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\replacewords_edit.ascx.resx">
       <DependentUpon>replacewords_edit.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\smilies.ascx.resx">
       <DependentUpon>smilies.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\smilies_edit.ascx.resx">
       <DependentUpon>smilies_edit.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\smilies_import.ascx.resx">
       <DependentUpon>smilies_import.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\users.ascx.resx">
       <DependentUpon>users.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\admin\version.ascx.resx">
       <DependentUpon>version.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\approve.ascx.resx">
       <DependentUpon>approve.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\attachments.ascx.resx">
       <DependentUpon>attachments.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\avatar.ascx.resx">
       <DependentUpon>avatar.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_editprofile.ascx.resx">
       <DependentUpon>cp_editprofile.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_inbox.ascx.resx">
       <DependentUpon>cp_inbox.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_message.ascx.resx">
       <DependentUpon>cp_message.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_profile.ascx.resx">
       <DependentUpon>cp_profile.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_signature.ascx.resx">
       <DependentUpon>cp_signature.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\cp_subscriptions.ascx.resx">
       <DependentUpon>cp_subscriptions.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\emailtopic.ascx.resx">
       <DependentUpon>emailtopic.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\error.ascx.resx">
       <DependentUpon>error.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\forum.ascx.resx">
       <DependentUpon>forum.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\help\index.ascx.resx">
       <DependentUpon>index.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\help\recover.ascx.resx">
       <DependentUpon>recover.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\im_aim.ascx.resx">
       <DependentUpon>im_aim.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\im_email.ascx.resx">
       <DependentUpon>im_email.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\im_icq.ascx.resx">
       <DependentUpon>im_icq.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\im_yim.ascx.resx">
       <DependentUpon>im_yim.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\info.ascx.resx">
       <DependentUpon>info.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\lastposts.ascx.resx">
       <DependentUpon>lastposts.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\login.ascx.resx">
       <DependentUpon>login.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\logout.ascx.resx">
       <DependentUpon>logout.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\members.ascx.resx">
       <DependentUpon>members.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\moderate.ascx.resx">
       <DependentUpon>moderate.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\moderate\forum.ascx.resx">
       <DependentUpon>forum.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\moderate\index.ascx.resx">
       <DependentUpon>index.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\mod_forumuser.ascx.resx">
       <DependentUpon>mod_forumuser.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\movetopic.ascx.resx">
       <DependentUpon>movetopic.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\pmessage.ascx.resx">
       <DependentUpon>pmessage.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\postmessage.ascx.resx">
       <DependentUpon>postmessage.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\posts.ascx.resx">
       <DependentUpon>posts.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\printtopic.ascx.resx">
       <DependentUpon>printtopic.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\profile.ascx.resx">
       <DependentUpon>profile.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\register.ascx.resx">
       <DependentUpon>register.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\rsstopic.ascx.resx">
       <DependentUpon>rsstopic.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\rules.ascx.resx">
       <DependentUpon>rules.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\search.ascx.resx">
       <DependentUpon>search.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="pages\topics.ascx.resx">
       <DependentUpon>topics.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <WebReferenceUrl Include="http://www.yetanotherforum.net/Register.asmx%3fop=RegisterForum">
       <RelPath>Web References\RegisterForum\</RelPath>

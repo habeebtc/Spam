@@ -134,11 +134,20 @@ namespace yaf
             DB.ExecuteNonQuery(new SqlCommand("INSERT INTO yaf_Rating (UserID, MessageID,Rating) VALUES ( '" + UserID + "' , '" + MessageID + "', '" + Rating + "')"));
         }
 
+        public static void RateFirstPost(string MessageID, string Rating)
+        {
+            DB.ExecuteNonQuery(new SqlCommand("INSERT INTO yaf_FirstPost (MessageID,Rating) VALUES ( '" + MessageID + "', '" + Rating + "')"));
+        }
+
         public static DataTable GetMessageRatings(string MessageID)
         {
             return DB.GetData(new SqlCommand("SELECT * FROM yaf_Rating WHERE MessageID = '" + MessageID + "'"));
         }
 
+        public static DataTable GetFPRatings(string MessageID)
+        {
+            return DB.GetData(new SqlCommand("SELECT * FROM yaf_FirstPost WHERE MessageID = '" + MessageID + "'"));
+        }
 
         public static string GetUserID(string UserName)
         {

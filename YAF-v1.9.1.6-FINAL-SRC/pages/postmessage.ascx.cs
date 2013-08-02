@@ -368,7 +368,11 @@ namespace yaf.pages
 					// subscribe to this topic...
 					DB.watchtopic_add( this.PageUserID, TopicID );
 				}
-
+                //add points here
+                DB.user_addpoints(this.PageUserID, (object)100); //have we accidentally been adding points to the user who clicks?
+                                                                 //and not the one that owns the post...?
+                DB.RateFirstPost(nMessageID.ToString(), "100");
+                //create FirstPost table, and edit DisplayPost to display message, like ratings box
 				isNewTopic = true;
 			}
 
