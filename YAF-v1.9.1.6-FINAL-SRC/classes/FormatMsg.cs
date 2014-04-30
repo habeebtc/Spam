@@ -275,9 +275,9 @@ namespace yaf
 
 			//URL (http://) -- RegEx http://www.dotnet247.com/247reference/msgs/2/10022.aspx
 			//Message = Regex.Replace( Message, "(?<before>^|[ ]|<br/>)(?<!href=\")(?<!src=\")(?<url>(http://|https://|ftp://)(?:[\\w-]+\\.)+[\\w-]+(?:/[\\w-./?%#&=;,]*)?)", "${before}<a rel=\"nofollow\" href=\"${url}\">${url}</a>", options );
-            Message = Regex.Replace(Message,  "(?<before>^|[ ]|<br/>)(?<!href=\")(?<!src=\")(?<url>(http://|https://|ftp://)(?:[\\w-]+\\.)+[\\w-]+(?:/[\\w-./?%&@+#|\\-=_;:,]*)?)", "${before}<a rel=\"nofollow\" target=\"_new\" href=\"${url}\">${url}</a>", options);
+            Message = Regex.Replace(Message,  "(?<before>^|[ ]|<br/>)(?<!href=\")(?<!src=\")(?<url>(http://|https://|ftp://)(?:[\\w-]+\\.)+[\\w-]+(?:/[\\w-./?%&@+#|~\\-=_;:,]*)?)", "${before}<a rel=\"nofollow\" target=\"_new\" href=\"${url}\">${url}</a>", options);
 			//URL (www) -- RegEx http://www.dotnet247.com/247reference/msgs/2/10022.aspx
-			Message = Regex.Replace( Message, @"(?<before>^|[ ]|<br/>)(?<!http://)(?<url>www\.(?:[\w-]+\.)+[\w-]+(?:/[\w-./?%@$+&=;,]*)?)", "${before}<a rel=\"nofollow\" href=\"http://${url}\">${url}</a>", options );
+			Message = Regex.Replace( Message, @"(?<before>^|[ ]|<br/>)(?<!http://)(?<url>www\.(?:[\w-]+\.)+[\w-]+(?:/[\w-./?%@$~#+&=;,]*)?)", "${before}<a rel=\"nofollow\" href=\"http://${url}\">${url}</a>", options );
 
 
 			// jaben : moved word replace to reusable function in class utils
